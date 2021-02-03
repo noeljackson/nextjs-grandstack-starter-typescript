@@ -35,7 +35,7 @@ To run this application as intended, you will need to:
 
 ### DEMO
 
-![app/__screenshots__/nextjs-frontend-default-page.png](app/__screenshots__/nextjs-frontend-default-page.png)
+![docs/nextjs-frontend-default-page.png](docs/nextjs-frontend-default-page.png)
 
 A [demo](https://nextjs-grandstack-starter-typescript.vercel.app/) application has been deployed using a free [Neo4j Sandbox](https://sandbox.neo4j.com) as the backend database at [https://nextjs-grandstack-starter-typescript.vercel.app/]
 
@@ -103,11 +103,11 @@ The following scripts are available at both the top-level project directory as w
   - See [https://jestjs.io/docs/en/cli#--ci](https://jestjs.io/docs/en/cli#--ci) for more details
 - `npm run test:coverage` - Generates a code coverage report of the Jest tests
 
-![app/__screenshots__/jest-coverage-report-cli.png](app/__screenshots__/jest-coverage-report-cli.png)
+![docs/jest-coverage-report-cli.png](docs/jest-coverage-report-cli.png)
 
 - `npm run test:coverage:view` - Generates a code coverage report of the Jest tests and automatically launches a web browser on macOS/Linux to interactively see what code is and is not being covered in tests
 
-![app/__screenshots__/jest-coverage-report-html.png](app/__screenshots__/jest-coverage-report-html.png)
+![docs/jest-coverage-report-html.png](docs/jest-coverage-report-html.png)
 
 - `npm run test:verbose` - This displays verbose output during the execution of the Jest tests
 
@@ -117,9 +117,9 @@ The following scripts are available at both the top-level project directory as w
 
 This project uses the [Next.js + Webpack Bundle Analyzer](https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer) to generate bundle analysis of both client and server bundles by running the `npm run analyze` script:
 
-![app/__screenshots__/analyze-client.png](app/__screenshots__/analyze-client.png)
+![docs/analyze-client.png](docs/analyze-client.png)
 
-![app/__screenshots__/analyze-server.png](app/__screenshots__/analyze-server.png)
+![docs/analyze-server.png](docs/analyze-server.png)
 
 ## Static files
 
@@ -176,15 +176,15 @@ The original [https://github.com/grand-stack/grand-stack-starter](https://github
 
 Once you have connected to your [Neo4j Database](https://neo4j.com) with [Neo4j Browser](https://neo4j.com/developer/neo4j-browser/), simply copy the text as is from `app/neo4j/__seed__/db.cypher` and execute the Cypher commands in a single action:
 
-![app/__screenshots__/neo4j-browser-00-paste-cypher.png](app/__screenshots__/neo4j-browser-00-paste-cypher.png)
+![docs/neo4j-browser-00-paste-cypher.png](docs/neo4j-browser-00-paste-cypher.png)
 
-![app/__screenshots__/neo4j-browser-01-paste-cypher.png](app/__screenshots__/neo4j-browser-01-paste-cypher.png)
+![docs/neo4j-browser-01-paste-cypher.png](docs/neo4j-browser-01-paste-cypher.png)
 
 You can verify that your [Neo4j Database](https://neo4j.com) has been successfully created:
 
-![app/__screenshots__/neo4j-browser-02-example-database-from-seed.png](app/__screenshots__/neo4j-browser-02-example-database-from-seed.png)
+![docs/neo4j-browser-02-example-database-from-seed.png](docs/neo4j-browser-02-example-database-from-seed.png)
 
-![app/__screenshots__/neo4j-browser-03-example-database-from-seed-fullscreen-view.png](app/__screenshots__/neo4j-browser-03-example-database-from-seed-fullscreen-view.png)
+![docs/neo4j-browser-03-example-database-from-seed-fullscreen-view.png](docs/neo4j-browser-03-example-database-from-seed-fullscreen-view.png)
 
 ### Vercel
 
