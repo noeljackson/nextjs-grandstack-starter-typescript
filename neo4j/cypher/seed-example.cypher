@@ -1,3 +1,4 @@
+// Run this file by running 
 // OPTIONAL: Clear previously defined constraints
 // DROP CONSTRAINT ON (node:User) ASSERT (node.userId) IS UNIQUE;
 // DROP CONSTRAINT ON (node:Category) ASSERT (node.name) IS UNIQUE;

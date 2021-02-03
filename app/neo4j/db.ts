@@ -4,7 +4,7 @@ import * as neo4j from "neo4j-driver"
 export const DEFAULT_NEO4J_DESKTOP = {
   URI: "bolt://localhost:7687",
   USER: "neo4j",
-  PASSWORD: "neo4j",
+  PASSWORD: "letmein",
   isEncrypted: false, // v3.5 does not use encrypted connections, but 4.0 does
 }
 
