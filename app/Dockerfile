@@ -8,6 +8,9 @@ RUN mkdir -p /usr/src/app
 # Define the working directory of our Docker container
 WORKDIR /usr/src/app
 
+# Clean modules, in case you built this incorrectly.
+RUN rm -rf /usr/src/app/node_modules
+
 # Install dependencies
 COPY package*.json /usr/src/app/
 RUN npm install
