@@ -20,6 +20,12 @@ module.exports = withPlugins([[withImages], [withBundleAnalyzer]], {
 
     // Necessary for resolving our styles, etc
     config.resolve.modules.push(path.resolve("./"))
+    
+    config.module.rules.push({
+      test: /\.(graphql|gql|graphqls)$/,
+      exclude: /node_modules/,
+      loader: 'graphql-tag/loader',
+    });
 
     // Return our custom webpack configuration
     return config

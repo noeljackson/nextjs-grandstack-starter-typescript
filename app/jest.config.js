@@ -7,6 +7,7 @@ module.exports = {
   ],
   transformIgnorePatterns: ["[/\\\\]node_modules[/\\\\].+\\.(ts|tsx)$"],
   transform: {
+    "\\.(gql|graphql)$": "@jagi/jest-transform-graphql",
     "^.+\\.(ts|tsx)$": "babel-jest",
   },
 }
